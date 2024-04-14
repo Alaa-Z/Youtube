@@ -5,24 +5,29 @@
     font-family: "Roboto", sans-serif;
     ;
 }
-.video-preview{
+.video-grid{
     display: grid;
-    grid-template-columns:300px;
-    margin: 8px;
-
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+.video-preview{
+    /* display: grid; */
+    /* grid-template-columns:300px; */
 }
 .image-container{
-    width: 300px;
+    /* width: 300px; */
 }
 .image-container img{
     width: 100%;
 }
 .video-content{
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 60px 1fr;
+    margin-top: 20px;
 }
 
-.chaneel-profile{
+.channel-profile{
     
 }
 .chaneel-profile img{
@@ -31,6 +36,7 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
 .video-title{
     font-weight: 500;
     font-size: 14px;
