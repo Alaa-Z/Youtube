@@ -9,17 +9,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
-    row-gap: 40px;
+    row-gap: 50px;
 }
 .video-preview{
     /* display: grid; */
     /* grid-template-columns:300px; */
+    margin-bottom: 20px;
 }
 .image-container{
-    /* width: 300px; */
+    /* display: inline-block; */
+
 }
 .image-container img{
     width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 .video-content{
     display: grid;
