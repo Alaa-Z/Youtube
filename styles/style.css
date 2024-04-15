@@ -10,13 +10,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
+    margin-top: 10px;
 }
 .left-section{
-    background-color: lightblue;
-    width: 150px;
+    /* background-color: lightblue; */
+    /* width: 150px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo{
+    height: 25px;
+    padding-top: -20px;
+    margin: auto;
+}
+.hamburger-menu{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .middle-section{
-    background-color:lightpink ;
+    /* background-color:lightpink ; */
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
