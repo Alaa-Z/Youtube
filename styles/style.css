@@ -48,6 +48,7 @@
     border-color: rgb(185, 185, 185);
     border-style: solid;
     border-radius: 2px;
+    width: 0; /* to shrink */
     box-shadow: inset 1px 1px 3px rgb(0,0,0,0.05)
 
 }
@@ -88,9 +89,49 @@
 }
 
 .right-section{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
+.right-section button{
+    background-color: transparent;
+    border: none;
+
+}
+.upload{
+    height: 25px;
+
+}
+.upload img{
+    height: 100%;
+}
+.notifications{
+    height: 25px;
+}
+.notifications img{
+    height: 100%;
+}
+.apps{
+    height: 25px;
+
+}
+.apps img{
+    height: 100%;
+}
+.channel{
+    height: 25px;
+}
+.channel img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
 
 
 /* -------------Style the video cards-------------- */
