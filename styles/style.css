@@ -23,6 +23,7 @@ body{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: rgb(245, 243, 243);
+    z-index: 100;
 
 }
 .left-section{
@@ -124,6 +125,19 @@ body{
 }
 .notifications{
     height: 25px;
+    position: relative;
+}
+.notifications-number{
+    background-color: rgb(194, 7, 7);
+    color: white;
+    /* padding: 5px 2px 5px 2px; */
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
 }
 .notifications img{
     height: 100%;
