@@ -5,9 +5,11 @@
     font-family: "Roboto", sans-serif;  
 }
 body{
-    padding-top: 80px;
-    padding-left: 80px;
+    padding-top: 96px;
+    padding-left: 96px;
+    padding-right: 30px;
     padding-bottom: 1000px;
+    background-color: rgb(247, 244, 244);
 }
 /* -------------Style the header-------------- */
 .header{
@@ -169,6 +171,7 @@ body{
     top: 55px;
     width: 72px;
     padding-top: 20px;
+    z-index: 200;
 }
 .icon-container{
     height: 60px;
@@ -216,7 +219,7 @@ body{
 }
 .video-time{
     position: absolute;
-    right: 8px;
+    right: 40px;
     bottom: 10px;
     background-color: black;
     color: white;
@@ -228,22 +231,22 @@ body{
 
 }
 .image-container img{
-    width: 100%;
+    width: 90%;
     height: 200px;
     object-fit: cover;
 }
 .video-content{
     display: grid;
     grid-template-columns: 60px 1fr;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .channel-profile{
     
 }
 .chaneel-profile img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     border-radius: 50%;
 }
