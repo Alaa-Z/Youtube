@@ -41,6 +41,8 @@ body{
     height: 25px;
     padding-top: -20px;
     margin: auto;
+    cursor: pointer;
+
 }
 .hamburger-menu{
     height: 25px;
@@ -83,10 +85,43 @@ body{
     border-style: solid;
     border-width: 1px;
     margin-left: -1px;
+   
 }
+.search-icon, 
+.voice-search-icon,
+.upload,
+.app,
+.notifications{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toollip{
+    position: absolute;
+    bottom: -34px;
+    background-color: rgba(126, 126, 126, 0.9);
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.14s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-icon:hover .toollip,
+.voice-search-icon:hover .toollip,
+.upload:hover .toollip,
+.apps:hover .toollip,
+.notifications:hover .toollip{
+    opacity: 1;
+}
+
 .search-icon img{
     height: 25px;
     margin-top: 4px;
+    cursor: pointer;
 }
 .voice-search-icon{
     width: 40px;
@@ -99,6 +134,7 @@ body{
     margin-left: -1px;
     border-radius: 50%;
     margin-left: 15px;
+    cursor: pointer;
 }
 .voice-search-icon img{
     height: 25px;
@@ -121,6 +157,7 @@ body{
 }
 .upload{
     height: 25px;
+    cursor: pointer;
 
 }
 .upload img{
@@ -129,6 +166,8 @@ body{
 .notifications{
     height: 25px;
     position: relative;
+    cursor: pointer;
+
 }
 .notifications-number{
     background-color: rgb(194, 7, 7);
@@ -147,6 +186,7 @@ body{
 }
 .apps{
     height: 25px;
+    cursor: pointer;
 
 }
 .apps img{
@@ -154,6 +194,7 @@ body{
 }
 .channel{
     height: 25px;
+    cursor: pointer;
 }
 .channel img{
     height: 30px;
@@ -227,8 +268,6 @@ body{
     font-weight: 400;
     padding: 2px 4px 2px 4px;
     border-radius: 2px;
-
-
 }
 .image-container img{
     width: 90%;
