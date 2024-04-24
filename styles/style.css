@@ -8,7 +8,7 @@ body{
     padding-top: 96px;
     padding-left: 96px;
     padding-right: 30px;
-    padding-bottom: 1000px;
+    /* padding-bottom: 1000px; */
     background-color: rgb(247, 244, 244);
 }
 /* -------------Style the header-------------- */
